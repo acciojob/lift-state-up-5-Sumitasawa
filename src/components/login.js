@@ -13,7 +13,7 @@ function Login({ onLogin }) {
   return (
     <form onSubmit={handleSubmit}>
       
-      <h2>Login Form</h2>
+      <h1>Login Form</h1>
       <input
         type="text"
         placeholder="Enter username"
