@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Login({ isLoggedIn, onLogin }) {
+function Login({ onLogin }) {
   const [username, setUsername] = useState("");
   const [password,setPassword]=useState("");
 
@@ -21,7 +21,7 @@ function Login({ isLoggedIn, onLogin }) {
         onChange={(e) => setUsername(e.target.value)}
       />
       <input
-       type="Number"
+      type="password"
        placeholder="Password"
        value={password}
        onChange={(e)=>setPassword(e.target.value)}
