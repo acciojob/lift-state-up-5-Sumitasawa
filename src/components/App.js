@@ -10,6 +10,7 @@ const App = () => {
   };
 
   return (
+    
     <div id="main">
       <h1>Parent Component</h1>
       {isLoggedIn ? (
