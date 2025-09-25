@@ -14,7 +14,7 @@ const App = () => {
     <div id="main">
       <h1>Parent Component</h1>
       {isLoggedIn ? (
-        <p>You are logged in</p>
+        <p>You are logged in!</p>
       ) : (
         <Login isLoggedIn={isLoggedIn} onLogin={handleLogin} />
       )}
