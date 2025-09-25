@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './../styles/App.css';
-import Login from './Login';
+import Login from "./login";
 
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -14,7 +14,7 @@ const App = () => {
     <div id="main">
       <h1>Parent Component</h1>
       {isLoggedIn ? (
-        <h2>You are logged in</h2>
+        <p>You are logged in</p>
       ) : (
         <Login isLoggedIn={isLoggedIn} onLogin={handleLogin} />
       )}
